@@ -1,0 +1,10 @@
+.post-container{
+    position: absolute;
+    top: 500px;
+    right: 1000px;
+    padding: 75px;
+}
+
+.post-button{
+    margin-top: 10px;
+}
