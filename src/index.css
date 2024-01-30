@@ -97,12 +97,14 @@
     top: 300px;
     right: 800px;
     background-image: url(BG.jpg);
-    background-size: contain;
-    padding: 20px;
+    background-size:255px;
+    background-repeat: no-repeat;
+    padding: 10px;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: #333;
-    height: 440px;
+    height: 405px;
+    overflow-wrap: break-word;
 }
 
 .center-content{

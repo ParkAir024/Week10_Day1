@@ -48,7 +48,7 @@ export default function Anime() {
             <div className="AnimeContainer">
         <Container>
             <h3>The next Watch!</h3>
-            <p onClick={addSelectedAnime} style={{ cursor: 'pointer' }}>Anime: {nextAnime}</p>
+            <p onClick={addSelectedAnime} style={{ cursor: 'pointer' }}>Anime: <br />{nextAnime}</p>
             <button onClick={randomAnime}>Spin The Wheel</button>
 
             <div>
