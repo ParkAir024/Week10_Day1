@@ -5,6 +5,7 @@ import CherryBlossomScene from './CherryBlossomScene.jsx'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
+import 'react-toastify/dist/ReactToastify.css'
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

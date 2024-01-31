@@ -6,7 +6,7 @@ export default function Post({ user }) {
     const postInputRef = useRef(null)
 
     async function sendPost(postData){
-        const res = await fetch('http://127.0.0.1:5000/anime/',{
+        const res = await fetch('https://weekend-portal.onrender.com/anime/',{
             method: "POST",
             headers: {
                 'Content-Type': 'application/json',

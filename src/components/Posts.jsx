@@ -9,7 +9,7 @@ export const Posts = () => {
 
   useState(() => {
     (async () => {
-      const res = await fetch('http://127.0.0.1:5000/anime/')
+      const res = await fetch('https://weekend-portal.onrender.com/anime/')
       if (res.ok) {
         const data = await res.json()
         setPosts(data);
@@ -21,10 +21,12 @@ export const Posts = () => {
   }, [])
 
   return (
+
     <Container className="posts-container">
       {posts.length > 0 ? posts.map((post) => {
         return <Post key={post.id} post={post} />;
       }) : <p>No Animes to display</p>}
     </Container>
+  
   );
 };
