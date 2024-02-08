@@ -48,12 +48,15 @@
   background-image: url('ANIME.jpg');
   background-size: cover;
   color: white;
-  min-height: 900px;
+  min-height: 100vh;
   padding: 0;
 }
 
 .header {
   border-bottom: 1px solid #ddd;
+  background-image: url('Header.png');
+  background-size:auto;
+  color: black;
 }
 
 .sidebar {

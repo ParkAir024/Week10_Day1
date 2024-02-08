@@ -1,6 +1,6 @@
 import Post from "./SinglePost"
 import Container from "react-bootstrap/Container"
-import './posts.css'
+import '../styles/posts.css'
 import { useState } from "react";
 export const Posts = () => {
 

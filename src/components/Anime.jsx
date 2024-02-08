@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
-
+import '../styles/index.css'
 export default function Anime() {
     
     const [nextAnime, setNextAnime] = useState('Anime!');
